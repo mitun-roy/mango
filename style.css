@@ -3,28 +3,95 @@ body{
   background-color: aliceblue;
   margin: 0 auto;
 }
-
+.font-open-sans{
+  font-family: "Open San", sans-serif;
+}
 
 header{
   background-color: blueviolet;
+ 
+ 
+
+}
+nav{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo{
+  display: flex;
+   padding: 3px;
+    margin: 7px;
+    border: 1px solid gray;
+    align-items: center;
+}
+.logo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  
+}
+#mr{
+    padding-left: 14px;
 }
 nav ul{
-display: flex;  
-
+      display: flex;
+    gap: 17px;
+    font-size: 1.5em;
+    margin: 1px solid red;
+    align-items: center;
+ 
 }
 nav li{
   list-style: none;
-  margin: 20px;
-  height: 20px;
-  background-color: azure;
 }
 nav li a{
+ 
   text-decoration: none;
+padding: 10px;  
 }
-nav li:hover{
+nav ul li a:hover{
+  background-color: aquamarine;
+}
+.btn{
+    margin: 1px solid red;
+    width: 94px;
+    height: 53px;
+    border-radius: 14px;
+}
+.btn:hover{
   background-color: brown;
-  height: 15px;
 }
+
+.baner{
+    display: flex;
+    background-color: gainsboro;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 14px;
+    margin-top: 14px;
+    padding-bottom: 20px;
+}
+.baner-containt{
+    
+        width: 315px;
+    font-size: 18px;
+    font-family: cursive;
+    padding-left: 109px;
+}
+.baner-img img{
+    padding-top: 50px;
+    padding-right: 10px;
+    height: 376px;
+    
+}
+
+
+
+
+
 
 .card-container{
   display: flex;
